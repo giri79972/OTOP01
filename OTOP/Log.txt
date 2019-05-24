@@ -1,0 +1,18 @@
+create database oto;
+DROP DATABASE oto;
+use oto;
+show tables;
+
+
+
+Django:
+
+django-admin startproject OTOAPP
+python manage.py startapp OTOP
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver 0.0.0.0:8888
+
+django/1234abcd
